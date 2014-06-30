@@ -1,0 +1,7 @@
+# DRUMKEY Dependencies
+
+DRUMKEY.OBJ: DRUMKEY.C \
+ genmidi.h \
+ genmidi.lib \
+ DRUMKEY.MAK
+

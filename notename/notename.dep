@@ -1,0 +1,7 @@
+# NOTENAME Dependencies
+
+NOTENAME.OBJ: NOTENAME.C \
+ genmidi.h \
+ genmidi.lib \
+ NOTENAME.MAK
+

@@ -1,0 +1,14 @@
+;******* NOTENAME.EXE Program Module Definition File (.DEF) ********
+; The module definition file supplies extra information about the program module to the LINKER.
+; Note the WINDOWCOMPAT keyword is required for link386
+
+NAME NOTENAME WINDOWCOMPAT
+
+DESCRIPTION 'Display note number for a given note name.'
+
+CODE   MOVEABLE
+DATA	MOVEABLE MULTIPLE
+
+HEAPSIZE   8192
+STACKSIZE 16384
+

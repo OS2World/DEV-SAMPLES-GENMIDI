@@ -1,0 +1,7 @@
+# CTLNAME Dependencies
+
+CTLNAME.OBJ: CTLNAME.C \
+ genmidi.h \
+ genmidi.lib \
+ CTLNAME.MAK
+

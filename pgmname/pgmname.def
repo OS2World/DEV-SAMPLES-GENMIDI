@@ -1,0 +1,14 @@
+;******* PGMNAME.EXE Program Module Definition File (.DEF) ********
+; The module definition file supplies extra information about the program module to the LINKER.
+; Note the WINDOWCOMPAT keyword is required for link386
+
+NAME PGMNAME WINDOWCOMPAT
+
+DESCRIPTION 'Display program number for a given GM Program name.'
+
+CODE   MOVEABLE
+DATA	MOVEABLE MULTIPLE
+
+HEAPSIZE   8192
+STACKSIZE 16384
+

@@ -1,0 +1,7 @@
+# DRUMNUM Dependencies
+
+DRUMNUM.OBJ: DRUMNUM.C \
+ genmidi.h \
+ genmidi.lib \
+ DRUMNUM.MAK
+

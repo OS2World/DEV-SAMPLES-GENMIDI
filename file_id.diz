@@ -1,0 +1,4 @@
+An OS/2 DLL that contains General MIDI Patch names, Drum Key names, and
+defined MIDI Controller names, plus routines relating these names to their
+MIDI values. Can be used in the creation of your own MIDI C apps.
+

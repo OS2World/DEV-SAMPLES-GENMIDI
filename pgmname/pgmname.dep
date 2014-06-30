@@ -1,0 +1,7 @@
+# PGMNAME Dependencies
+
+PGMNAME.OBJ: PGMNAME.C \
+ genmidi.h \
+ genmidi.lib \
+ PGMNAME.MAK
+
